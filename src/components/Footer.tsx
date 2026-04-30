@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[#252525] text-white py-[1%]">
+      <footer className="bg-[#252525] text-white py-[1%] fixed bottom-0 right-0 left-0">
         <p className="text-center">
           © {new Date().getFullYear()} • Projeto desenvolvido por
           <a
